@@ -24,23 +24,34 @@
         <h1>Job Analysis</h1>
         <input type="file" id="file_selector" accept=".json">
         <br>
-        <label for="level">Filter by Level: </label>
+        <label for="level">Filter by Level:&nbsp;</label>
         <select name="" id="level">
             <option value="all">All</option>
             <option value="entry">Entry level</option>
             <option value="expert">Expert</option>
         </select>
 
-        <label for="type">Filter by Type: </label>
+        <label for="type">&nbsp;Filter by Type:&nbsp;</label>
         <select name="" id="type">
             <option value="all">All</option>
             <option value="one-time">One-time project</option>
         </select>
 
-        <label for="skill">Filter by Skill: </label>
+        <label for="skill">&nbsp;Filter by Skill:&nbsp;</label>
         <select name="" id="skill">
             <option value="all">All</option>
             <option value="web">Web Application Job</option>
+        </select>
+
+        <button id="filterBtn">
+            &nbsp;Filter Jobs
+        </button>
+        <br>
+        <br>
+        <label for="sort">Sort by:&nbsp;</label>
+        <select name="" id="sort">
+            <option value="title">Title (A-Z)</option>
+            <option value="first">Posted Time (Newest First)</option>
         </select>
     </div>
 </body>
