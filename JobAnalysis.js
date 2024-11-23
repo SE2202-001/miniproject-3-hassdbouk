@@ -9,9 +9,12 @@
   
 const object = await readJsonFile(file)*/
 
-const fileSelector = document.querySelector('#file_selector');
+/*const fileSelector = document.querySelector('#file_selector');
 
 fileSelector.addEventListener('change', (event) => {
     const fileList = event.target.files;
     console.log(fileList);
-  });
+  });*/
+
+const data = JSON.parse("upwork_jobs.json")
+console.log(data[0]);
