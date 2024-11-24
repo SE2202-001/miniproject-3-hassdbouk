@@ -17,9 +17,15 @@ const display = document.querySelector('#display');
 
 function displayJobs(){
     for (let i = 0; i < jobTitles.length; i++){
-        display.value = `${jobTitles[i]} - ${jobTypes[i]} (${jobLevels[i]})`;
+        display.value = `${jobTitles[i]} - ${jobTypes[i]} (${jobLevels[i]})\n`;
     }
 }
+
+const filterButton = document.querySelector('#filterBtn');
+
+filterButton.addEventListener("onclick", () => {
+    
+});
 
 
 
