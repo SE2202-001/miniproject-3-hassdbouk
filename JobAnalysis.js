@@ -16,7 +16,9 @@ jobData.forEach((job) => {
 const display = document.querySelector('#display');
 
 function displayJobs(){
-
+    for (let i = 0; i < jobTitles.length; i++){
+        
+    }
 }
 
 
