@@ -17,7 +17,7 @@ const display = document.querySelector('#display');
 
 function displayJobs(){
     for (let i = 0; i < jobTitles.length; i++){
-        
+        display.value = `${jobTitles[i]} - ${jobTypes[i]} (${jobLevels[i]})`;
     }
 }
 
