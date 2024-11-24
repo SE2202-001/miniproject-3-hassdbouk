@@ -4,11 +4,13 @@ const jobData = require('./upwork_jobs.json');
 let jobTitles = [];
 let jobTypes = [];
 let jobLevels = [];
+let jobsPosted = []
 // populate each array with the properties of each object in the json file
 jobData.forEach((job) => {
     jobTitles.push(job.Title);
     jobTypes.push(job.Type);
     jobLevels.push(job.Level);
+    jobsPosted.push(job.Posted);
 });
 
 
