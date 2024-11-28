@@ -1,5 +1,16 @@
 // retrieve the whole json data into a constant variable jobData
 const jobData = require('./upwork_jobs.json');
+
+class job{
+    constructor(title, time_post, type, level, skill, detail){
+        this.title = title;
+        this.time_post = time_post;
+        this.type = type;
+        this.level = level;
+        this.skill = skill;
+        this.detail = detail;
+    }
+}
 // create array for each property that will be displayed on the html page
 var jobTitles = [];
 var jobTypes = [];
